@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Vanilla JS Sort</title>
+</head>
+<body>
+    <div class='app'>
+        <h1>Justins Sorter</h1>
+        <div class="output"></div>
+
+        <div class="button-row">
+            <button class='btn generatearray' id='generatearray'>Generate_Array</button>
+            <button class='btn sortbtn' id='bubblesort'>Sort</button>
+            <button class='btn quicksortbtn' id='quicksort'>QuickSort</button>
+            <select id='speed'
+                    name='speed'>
+                <option value="100">1 Millisecond</option>
+                <option value="500">1/2 Second</option>
+                <option value="1000">1 Second</option>
+                </select>
+                <button class='btn stopbtn' id='stop'>Pause</button>
+                <h4>Time:<span id='time'></span></h4>
+        </div>
+
+        <div class="footer">
+            <p>Footer &copy;</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
